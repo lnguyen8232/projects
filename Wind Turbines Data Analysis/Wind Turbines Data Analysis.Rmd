@@ -2,10 +2,7 @@
 title: "Wind Turbines Data Analysis"
 author: "L. N."
 date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_float: true
+output: md_document
 ---
 
 ```{r setup, include = FALSE}
