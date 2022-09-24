@@ -1,10 +1,31 @@
 # projects
 
-This repository is where I keep my personal projects.
-The following projects are currently made public: IMDb Video Games Data Analysis
+This repository is where I publicize my personal projects. If you would like to use my project, please remember to credit me.
+
+For R files, make sure in the .r or .rmd file, you change "setwd('C:/directory to .csv')" to set the working directory to where your .csv is. You can use "getwd()" to get your current directory to help you navigate.
 
 #
 #--- IMDb Video Games Data Analysis ---#
 #
 
-There are three files in a designated folder following the same name of the project (IMDb Video Games Data Analysis). First is the csv file or the data itself of IMDb Video Games. Second is the rmarkdown file (or .rmd) which requires an R editor, or better, an R IDE to view, execute, and/or knit the code. Third is the HTML which is the result of exporting the file to HTML, and it has been modified in a way that all codes were hidden except for statistical models and text so that it will be communicated to a general audience. If you want to download this project, please download the .rmd and .csv files. Make sure in the .rmd file, you change setwd('C:/directory to .csv') to set the working directory to where your .csv is. You can use getwd() to get your current directory to help you navigate. If you would like to use my project, please remember to credit me.
+There are three files in a designated folder following the same name of the project (IMDb Video Games Data Analysis). 
+
+imdb-videogames.csv: Data of video games from IMDb and published to Kaggle by Muhammad Adil Talay.
+
+IMDb Video Games Data Analysis.rmd: Rmarkdown file which requires an R editor or an R IDE to view, execute, and/or knit the code. The following packages has been used: ggplot2, rmarkdown.
+
+IMDB-Video-Games-Data-Analysis.html: HTML file that has been modified in a way that all output code was hidden except for statistical models and text so that it would be communicated to a general audience.
+
+#
+#--- Wind Turbines Data Analysis ---#
+#
+
+There are four files in a designated folder following the same name of the project (Wind Turbines Data Analysis).
+
+wind_turbines.csv: Data of wind turbines from the United States Wind Turbine Database (USWTDB)
+
+turbine-image.png: Clipart of wind turbines that was used as part of the rmarkdown file.
+
+Wind Turbines Data Analysis.rmd: Rmarkdown file which requries an R editor or an R IDE to view, execute, and/or knit the code. The following packages has been used: ggplot2, rmarkdown.
+
+Wind-Turbines-Data-Analysis.html: HTML file that has been modified in a way that all output code was hidden except for statistical models and text so that it would be communicated to a general audience.
