@@ -22,8 +22,10 @@ IMDB-Video-Games-Data-Analysis.html: HTML file that has been modified in a way t
 
 There are four files in a designated folder following the same name of the project (Wind Turbines Data Analysis).
 
-.csv file: Data of wind turbines from the United States Wind Turbine Database (USWTDB)
+wind_turbines.csv: Data of wind turbines from the United States Wind Turbine Database (USWTDB)
+
+turbine-image.png: Clipart of wind turbines that was used as part of the rmarkdown file.
 
 Wind Turbines Data Analysis.rmd: Rmarkdown file which requries an R editor or an R IDE to view, execute, and/or knit the code. The following packages has been used: ggplot2, rmarkdown.
 
-Wind-Turbines-Data-Analysis.html: HTML files that has been modified in a way that all output code was hidden except for statistical models and text so that it would be communicated to a general audience.
+Wind-Turbines-Data-Analysis.html: HTML file that has been modified in a way that all output code was hidden except for statistical models and text so that it would be communicated to a general audience.
