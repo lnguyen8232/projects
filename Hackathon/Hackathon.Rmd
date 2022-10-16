@@ -1,0 +1,116 @@
+---
+title: "Project"
+author: "Larry Nguyen"
+date: "2022-10-15"
+output:
+  md_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r include = FALSE}
+library(tidyverse)
+library(lubridate)
+
+getwd()
+setwd("C:/Users/17372/Desktop/Hackathon")
+data <- read_csv("data.csv")
+```
+
+## Graphics
+
+```{r echo = FALSE}
+ggplot(data) + 
+  geom_point(aes(x = Time, y = Rating, color = Song)) + 
+  geom_smooth(aes(x = Time, y = Rating), method = 'lm', se = FALSE, color = 'black', size = 0.5) + 
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) + 
+  ylim(0, 100) + 
+  labs(title = "Distribution of Trials and Ratings for All Songs", x = "Trials", y = "Ratings") + 
+  theme_classic()
+```
+
+## For Song1
+
+```{r echo = FALSE}
+ggplot(data[data$Song == "song1",]) + 
+  geom_point(aes(x = Time, y = Rating)) + 
+  geom_smooth(aes(x = Time, y = Rating), method = 'lm', se = FALSE, color = 'black', size = 0.5) + 
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) + 
+  ylim(0, 100) + 
+  labs(title = "Distribution of Trials and Ratings for Song1", x = "Trials", y = "Ratings") + 
+  theme_classic()
+```
+
+## For Song2
+
+```{r echo = FALSE}
+ggplot(data[data$Song == "song2",]) + 
+  geom_point(aes(x = Time, y = Rating)) + 
+  geom_smooth(aes(x = Time, y = Rating), method = 'lm', se = FALSE, color = 'black', size = 0.5) + 
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) + 
+  ylim(0, 100) + 
+  labs(title = "Distribution of Trials and Ratings for Song2", x = "Trials", y = "Ratings") + 
+  theme_classic()
+```
+
+## For Song3
+
+```{r echo = FALSE}
+ggplot(data[data$Song == "song3",]) + 
+  geom_point(aes(x = Time, y = Rating)) + 
+  geom_smooth(aes(x = Time, y = Rating), method = 'lm', se = FALSE, color = 'black', size = 0.5) + 
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) + 
+  ylim(0, 100) + 
+  labs(title = "Distribution of Trials and Ratings for Song3", x = "Trials", y = "Ratings") + 
+  theme_classic()
+```
+
+## For Song4
+
+```{r echo = FALSE}
+ggplot(data[data$Song == "song4",]) + 
+  geom_point(aes(x = Time, y = Rating)) + 
+  geom_smooth(aes(x = Time, y = Rating), method = 'lm', se = FALSE, color = 'black', size = 0.5) + 
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) + 
+  ylim(0, 100) + 
+  labs(title = "Distribution of Trials and Ratings for Song4", x = "Trials", y = "Ratings") + 
+  theme_classic()
+```
+
+## For Song5
+
+```{r echo = FALSE}
+ggplot(data[data$Song == "song5",]) + 
+  geom_point(aes(x = Time, y = Rating)) + 
+  geom_smooth(aes(x = Time, y = Rating), method = 'lm', se = FALSE, color = 'black', size = 0.5) + 
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) + 
+  ylim(0, 100) + 
+  labs(title = "Distribution of Trials and Ratings for Song5", x = "Trials", y = "Ratings") + 
+  theme_classic()
+```
+
+## For Song6
+
+```{r echo = FALSE}
+ggplot(data[data$Song == "song6",]) + 
+  geom_point(aes(x = Time, y = Rating)) + 
+  geom_smooth(aes(x = Time, y = Rating), method = 'lm', se = FALSE, color = 'black', size = 0.5) + 
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) + 
+  ylim(0, 100) + 
+  labs(title = "Distribution of Trials and Ratings for Song6", x = "Trials", y = "Ratings") + 
+  theme_classic()
+```
+
+## For Song7
+
+```{r echo = FALSE}
+ggplot(data[data$Song == "song7",]) + 
+  geom_point(aes(x = Time, y = Rating)) + 
+  geom_smooth(aes(x = Time, y = Rating), method = 'lm', se = FALSE, color = 'black', size = 0.5) + 
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) + 
+  ylim(0, 100) + 
+  labs(title = "Distribution of Trials and Ratings for Song7", x = "Trials", y = "Ratings") + 
+  theme_classic()
+```
