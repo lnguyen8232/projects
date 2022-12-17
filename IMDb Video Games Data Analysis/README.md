@@ -9,8 +9,7 @@ Adil Talay. For more information on the data set, visit
 <https://www.kaggle.com/datasets/muhammadadiltalay/imdb-video-games>.
 The following questions I am currently exploring are: What is the
 average rating for each video game genre? What is the most popular video
-game in each genre? With no further ado, let’s begin by analyzing our
-first game genre—Action.
+game in each genre?
 
 ## Action Video Games
 
